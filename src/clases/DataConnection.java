@@ -46,10 +46,10 @@ public class DataConnection {
      */
     public void performConnection() {
              
-        /*String host = "localhost:3306";
+        String host = "localhost:3306";
         String user = "root";
         String pass = "";
-        String dtbs = "bd_name";*/
+        String dtbs = "bd_name";
  
         try { // preparamos la conexión
             Class.forName("com.mysql.jdbc.Driver");
