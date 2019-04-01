@@ -45,17 +45,11 @@ public class DataConnection {
      *
      */
     public void performConnection() {
-        
-        String host = "50.87.144.35:3306";//cambiar por tu host de la base de datos
-        String user = "victor19_vsm1993";//cambiar por tu usuario de la base de datos
-        String pass = "MiClave12345";//cambiar por tu contraseña de la base de datos
-        String dtbs = "victor19_cpi_2018";//cambiar por tu nombre de la base de datos*/
-        
-        
+             
         /*String host = "localhost:3306";
         String user = "root";
         String pass = "";
-        String dtbs = "cpi_2018";*/
+        String dtbs = "bd_name";*/
  
         try { // preparamos la conexión
             Class.forName("com.mysql.jdbc.Driver");
